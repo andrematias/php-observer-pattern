@@ -1,0 +1,21 @@
+{
+    "name": "PHP Observer Design Pattern",
+    "description": "Create new package from scratch",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "André Matias",
+            "email": "dev.andrematias@gmail.com",
+            "homepage": "https://codeloggers.com",
+            "role": "Code Loggers"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mutant\\": "."
+        }
+    }
+}
