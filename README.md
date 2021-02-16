@@ -4,16 +4,17 @@
 
 - Padrões criacionais
 
-    Ajudam na construção de objetos, facilita na criação de objetos que contém
-    muitas composições ou parametros por exemplo.
+    Fornecem meios de criação de um objeto e de como ele será instanciado.
 
 - Padrões Estruturais
 
-    Ajudam na composição de mutiplos objetos mantendo uma estrutura organizada.
+    Tratam da composição de objetos por heranças e interfaces para diferentes
+    funcionalidades.
 
 - Padrões Comportamentais
 
-    Diz qual será a responsabilidade do objeto dentro da estrutura do projeto.
+    Tratam das interações e comunicação entre os objetos além da divisão de
+    responsabilidades.
 
 ## Padrão Observer
 
