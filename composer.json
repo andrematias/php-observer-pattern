@@ -1,5 +1,5 @@
 {
-    "name": "PHP Observer Design Pattern",
+    "name": "mutant/php-observer-pattern",
     "description": "Create new package from scratch",
     "license": "MIT",
     "authors": [
@@ -11,7 +11,8 @@
         }
     ],
     "require": {
-        "php": ">=7.4"
+        "php": ">=7.4",
+        "php-amqplib/php-amqplib": ">=2.9.0"
     },
     "autoload": {
         "psr-4": {
