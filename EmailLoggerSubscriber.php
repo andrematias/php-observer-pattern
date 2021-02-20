@@ -13,8 +13,8 @@
         }
 
         public function update(IEvent $event) {
-            $eventName = get_class($event);
-            echo "EmailLoggerSubscriber se inscreveu para o evento {$eventName} e pode fazer o que quiser \n\n";
+            echo "[*] ".static::class." divulgando o evento ".$this->eventName." localmente.\n";
+            echo $event->serialize();
         }
 
         public function eventName(){
