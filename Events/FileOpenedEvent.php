@@ -13,6 +13,6 @@
 
         public function serialize()
         {
-            echo "Evento OpenFileEvent serializado com o arquivo {$this->filename}";
+            return "Evento OpenFileEvent serializado com o arquivo {$this->filename}\n";
         }
     }
