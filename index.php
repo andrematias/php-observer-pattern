@@ -24,3 +24,5 @@ $editor = new Editor("/etc/apache.conf", $publisher);
 
 $editor->openFile();
 $editor->saveFile();
+
+$simpleBus->closeChannel();

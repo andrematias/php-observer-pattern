@@ -39,7 +39,7 @@
             );
         }
 
-        private function closeChannel() {
+        public function closeChannel() {
             $this->channel->close();
         }
     }
